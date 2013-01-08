@@ -1,0 +1,10 @@
+{
+  "name": "angular-base",
+  "repo": "deedubs/angular-base",
+  "description": "Sample AngularJS application",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT"
+}
