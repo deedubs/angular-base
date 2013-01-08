@@ -1,12 +1,13 @@
 var application = angular.module('angular-base', []);
 
 require('factories');
+require('services');
 
 application.config(require('./lib/routes'));
 application.config(require('./lib/authentication'));
 
-application.run(function ($rootScope) {
-  $rootScope.currentUser = {name: 'Dan Williams'};
+application.run(function ($rootScope, CurrentUser) {
+  $rootScope.currentUser = CurrentUser;
 
   console.log('angular-base ready!');
 });

@@ -1,4 +1,5 @@
 {
+  "name": "factories",
   "scripts": [
     "index.js",
     "user.js"

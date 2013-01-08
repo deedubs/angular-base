@@ -8,7 +8,11 @@
   "development": {},
   "license": "MIT",
   "paths": ["js"],
-  "local": ["factories"],
+  "local": [
+    "factories",
+    "services",
+    "controllers"
+  ],
   "scripts": [
     "js/index.js",
     "js/lib/routes.js",

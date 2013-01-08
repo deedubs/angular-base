@@ -1,0 +1,7 @@
+{
+  "name": "controllers",
+  "scripts": [
+    "index.js",
+    "users.js"
+  ]
+}

@@ -1,6 +1,7 @@
 {
+  "name": "services",
   "scripts": [
     "index.js",
-    "currentUser.js"
+    "current-user.js"
   ]
 }
