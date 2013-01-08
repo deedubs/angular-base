@@ -6,5 +6,12 @@
   "keywords": [],
   "dependencies": {},
   "development": {},
-  "license": "MIT"
+  "license": "MIT",
+  "paths": ["js"],
+  "local": ["factories"],
+  "scripts": [
+    "js/index.js",
+    "js/lib/routes.js",
+    "js/lib/authentication.js"
+  ]
 }

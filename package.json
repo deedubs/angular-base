@@ -13,6 +13,9 @@
   "author": "Dan Williams",
   "license": "MIT",
   "dependencies": {
-    "express": "~3.0.6"
+    "express": "~3.0.6",
+    "stylus": "~0.32.0",
+    "component": "~0.11.0",
+    "nib": "~0.9.1"
   }
 }
