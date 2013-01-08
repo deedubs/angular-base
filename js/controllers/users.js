@@ -1,4 +1,4 @@
-var application = angular.module('angular-base');
+var application = angular.module('userControllers', []);
 
 application.controller('users-show', function () {
 

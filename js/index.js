@@ -1,7 +1,9 @@
-var application = angular.module('angular-base', []);
+var factories = require('factories');
+var services = require('services');
 
-require('factories');
-require('services');
+var application = angular.module('angular-base', ['factories', 'services']);
+
+
 
 application.config(require('./lib/routes'));
 application.config(require('./lib/authentication'));
